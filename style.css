@@ -77,7 +77,18 @@ body{
 }
 .social-hovered{
   opacity: 0.5;
+  -webkit-transition: opacity 0.3s ease-in-out;
+  -moz-transition: opacity 0.3s ease-in-out;
+  -ms-transition: opacity 0.3s ease-in-out;
+  -o-transition: opacity 0.3s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
 }
 .social-hovered:hover{
+  filter: alpha(opacity=50);
   opacity: 1;
+}
+.portfolio-item {
+    margin-bottom: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
 }
